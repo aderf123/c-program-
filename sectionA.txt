@@ -1,0 +1,49 @@
+SECTION A - C PROGRAMMING BASICS
+1A. A PROGRAM
+A program is a set of instructions that tells a computer what to do.
+So we know a computer is like a very fast machine, but it cannot think on its own.
+It only does what we tell it — and what we tell it is called a program.
+ (e.g) Add two numbers, Control a traffic light etc.
+
+1B. AN ALGORITHM
+An algorithm is a step-by-step method for solving a problem.
+Before we write code, we must think about the steps to solve the problem. 
+(E.g) before we make tea the steps are to boil hot water, put  the beverage in the cup,
+ add the hot water etc this are the steps of solving the problem of making a tea
+
+1C. PSEUDOCODE
+Pseudocode is writing the algorithm in simple English that 
+looks like programming but is not actual code.
+It helps programmers plan before writing real code. (E.g) 
+START
+INPUT two numbers
+ADD the numbers
+DISPLAY result
+END
+
+1D. A FLOWCHART
+A flowchart is a diagram that shows the steps of an algorithm 
+using shapes and arrows.Instead of writing steps with words, we draw them.
+
+1E. A VARIABLE 
+A variable is a name given to a memory location used to store data.
+Think of a variable as a container or box where you keep a value.
+ (E.g) int age = 20; age is the variable or the container while 20 is the value stored inside it
+
+
+
+2. Differences
+
+a. Machine Language and High-Level Language
+
+Machine Language:
+- lowest-level programming Language
+- Written in binary (0s and 1s)
+- Difficult for humans to understand
+- Executed directly by the computer
+
+High-Level Language:
+- High-level programming Language
+- Written in English-like words
+- Easy for humans to read and write
+- Must be translated before execution
