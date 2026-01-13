@@ -47,3 +47,31 @@ High-Level Language:
 - Written in English-like words
 - Easy for humans to read and write
 - Must be translated before execution
+
+b. Syntax and Semantics
+Syntax:
+Syntax refers to the rules and structure for writing statements in a programming language.
+so Syntaxis about how you write. (e.g) int x =5; (this is correct)
+int x5 =; (not correct)
+
+Semantics:
+Semantics refers to the meaning or purpose of the statements written in a programming language.
+(e.g) x = x + 1;
+
+
+3. Purpose of #include <stdio.h>
+The #include <stdio.h> statement tells the compiler to include the 
+Standard Input and Output library so that functions like printf() and scanf() can be used.
+If you use printf() or scanf() in your program and you do not include stdio.h,
+the compiler will not know what those functions are.
+It allows printf() to work. Without it → compiler error or warning.
+
+
+4. Purpose of return 0;
+The return 0; statement indicates that the program has ended successfully.
+
+5. Companies / Applications that use C2q
+1. Microsoft — uses C to build parts of the Windows operating system.
+2. Apple — uses C in macOS and iOS system-level components.
+3. Linux Foundation — uses C to develop the Linux operating system kernel.
+

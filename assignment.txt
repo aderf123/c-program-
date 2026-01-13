@@ -1,0 +1,49 @@
+1. A VARIABLE 
+A variable is a name given to a memory location used to store data.
+Think of a variable as a container or box where you keep a value.
+ (E.g) int age = 20; age is the variable or the container while 20 is the value stored inside it
+
+2A. Difference between int and float 
+Integer stores whole numbers (e.g 10)
+Float stores decimal numbers(e.g 3.1)
+
+2B. Difference between float and double 
+Float stores single or two decimals and it uses less memory
+Double stores mulitple decimals and uses more memory 
+
+2C. Difference between char and char array 
+Char stores a single character inside double quoat (e.g 'A')
+Char array stores mulitple characters (a string) (e.g "john")
+
+3. What are Modifiers in C
+Modifiers are keywords used with data types to change their size or range.
+Examples:
+	•	short
+	•	long
+	•	signed
+	•	unsigned
+Purpose: They control how much memory is used and what range of values can be stored.
+short int x;
+long int y;
+
+4. Constants
+A constant is a value that does not change during program execution.
+It can be declared using:
+const int MAX = 100;
+const float PI = 3.142;
+
+5. Format Specifier
+A format specifier tells printf or scanf what type of data to display or read.
+Examples:Specifier Meaning
+%d- Integer
+%f-Float
+%lf-Double
+%c-Character
+%s-String
+
+6. Declaration vs Initialization
+Declaration means telling the compiler about a variable’s name and type.
+Initialization means giving the variable its first value.
+Example:
+int x;       // declaration
+int x = 5;   // initialization

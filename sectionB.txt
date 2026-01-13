@@ -1,0 +1,120 @@
+SECTION B — ALGORITHMS, PSEUDOCODE AND FLOWCHARTS
+
+1(a). Find the sum and average of three numbers
+
+Algorithm:
+1. Start
+2. Input A, B, C
+3. sum = A + B + C
+4. average = sum / 3
+5. Display sum and average
+6. End
+
+Pseudocode:
+START
+INPUT A, B, C
+sum ← A + B + C
+average ← sum / 3
+DISPLAY sum, average
+END
+
+Flowchart:
+(Start)
+   |
+[Input A, B, C]
+   |
+[sum = A + B + C]
+   |
+[average = sum / 3]
+   |
+[Display sum, average]
+   |
+(End)
+
+
+1(b). Determine whether a number is even or odd
+
+Algorithm:
+1. Start
+2. Input N
+3. If N mod 2 = 0 display "Even", else display "Odd"
+4. End
+
+Pseudocode:
+START
+INPUT N
+IF N mod 2 = 0 THEN
+    DISPLAY "Even"
+ELSE
+    DISPLAY "Odd"
+END IF
+END
+
+Flowchart:
+(Start)
+   |
+[Input N]
+   |
+[N mod 2 = 0?]
+  |         \
+ Yes          No
+  |            |
+[Display Even] [Display Odd]
+       \        /
+            (End)
+
+
+1(c). Calculate the area and perimeter of a rectangle
+
+Algorithm:
+1. Start
+2. Input L and W
+3. area = L * W
+4. perimeter = 2 * (L + W)
+5. Display area and perimeter
+6. End
+
+Pseudocode:
+START
+INPUT L, W
+area ← L * W
+perimeter ← 2 * (L + W)
+DISPLAY area, perimeter
+END
+
+Flowchart:
+(Start)
+   |
+[Input L, W]
+   |
+[area = L * W]
+   |
+[perimeter = 2 * (L + W)]
+   |
+[Display area, perimeter]
+   |
+(End)
+
+
+1(d). Accept user's name and display greeting
+
+Algorithm:
+1. Start
+2. Input name
+3. Display "Hello, " + name
+4. End
+
+Pseudocode:
+START
+INPUT name
+DISPLAY "Hello, " + name
+END
+
+Flowchart:
+(Start)
+   |
+[Input name]
+   |
+[Display "Hello, name"]
+   |
+(End)
