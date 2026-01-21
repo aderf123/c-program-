@@ -1,0 +1,73 @@
+(a) What is an operator in C?
+An operator in C is a symbol that tells the compiler to 
+perform a specific operation on one or more values.
+
+
+(b) What is an operand?
+An operand is the value or variable on which an operator performs its operation.
+Example:
+a + b 
+A and b are operands
+
+
+(c) What is an expression?
+An expression is a combination of variables, constants, 
+and operators that produces a result.
+Example: x = a + b;
+
+
+(d) Difference between = and ==
+	•	= is the assignment operator used to assign a value.
+	•	== is the comparison operator used to check equality.
+Example:
+x = 5;      // assignment
+x == 5;     // comparison
+
+
+(e) Operator precedence
+Operator precedence determines the order in which operators are evaluated in an expression.
+Example:
+int result = 10 + 5 * 2;
+
+
+2. Categories of Operators in C
+(a) Arithmetic Operators - These are used to perform mathematical calculations like addition, 
+subtraction, multiplication, division, and modulus.
+Examples 
+int a = 10, b = 5;
+
+printf("%d\n", a + b);   // Addition
+printf("%d\n", a % b);   // Modulus
+
+(b) Assignment Operators
+These operators are used to assign values to variables.
+Examples:
+int x = 10;
+
+x += 5;   // x = x + 5
+x *= 2;   // x = x * 2
+
+
+(c) Relational Operators
+These operators are used to compare two values and return true or false.
+Examples:
+int a = 5, b = 10;
+
+printf("%d\n", a < b);   // Less than
+printf("%d\n", a == b);  // Equal to
+
+(d) Logical Operators
+Logical operators are used to combine multiple conditions.
+Examples:
+int a = 5, b = 10;
+
+printf("%d\n", a < b && b > a);  // Logical AND
+printf("%d\n", a > b || b > a);  // Logical OR
+
+(e) Increment and Decrement Operators
+These operators are used to increase or decrease a value by one.
+Examples:
+int x = 5;
+
+x++;   // Increment
+x--;   // Decrement
